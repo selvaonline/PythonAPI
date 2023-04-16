@@ -24,3 +24,8 @@ def get_stores():
     return {
         "stores": stores
     }
+
+@app.post("/store")
+
+def create_store():
+    pass
